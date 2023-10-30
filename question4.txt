@@ -1,0 +1,205 @@
+ TASK 1 : Simple Programs todo for variables
+
+Q1 Declare four variables without assigning values and print them in console
+
+var a = (var1,var2,var3,var4);
+console.log(a)
+
+Q2 How to get value of the variable myvar as output
+
+var m=1;
+console.log(m);
+
+Q3  Declare variables to store your first name, last name, marital status, country and age in multiple lines
+
+var firstname="emayavarman",
+var lastname="pk",
+var maritalstatus="single",
+var country = "indian",
+var age = 22;
+
+Q4 Declare variables to store your first name, last name, marital status, country and age in a single line
+
+var firstname="emayavarman",lastname="pk",maritalstatus="single", country = "indian",age = 22;
+
+Q5 . Declare variables and assign string, boolean, undefined and null data types
+
+var a = "name";
+var b = true;
+var c =c;
+var d =null;
+console.log(typeof(a));
+console.log(typeof(b));
+console.log(typeof(c));
+console.log(d); 
+
+Q6 Convert the string to integer
+
+parseInt()
+Plus sign(+)
+
+Q7  7. Write 6 statement which provide truthy & falsey values.
+
+var a = [1,2,4,5,8]
+if(a%2===0)
+{console.log(true) 
+}
+else
+
+
+ TASK 2: Simple Programs todo for Operators
+
+ 1. Square of a number
+
+console.lg(math.pow(9,2));
+
+
+ 2.Swapping 2 numbers
+ var a=5;
+ var b=4;
+ temp=a;
+ a=b;
+ b=temp;
+console.log(a,b)
+
+3.Addition of 3 numbers
+var a=4;
+var b=3;
+var c=4;
+console.log(a+b+c);
+
+4.Celsius to Fahrenheit conversion
+var c =20;
+var f =0;
+console.log("f=",(c*9/5)+32); 
+
+ 5.Meter to miles
+var m=12000;
+var mi=0;
+console.log("mi=",m*0.00061237);
+
+6.Pounds to kg
+var ibs=5;
+var kg=0;
+console.log("kg=",ibs*0.45359237);
+
+7.Calculate Batting Average
+var runs=10000;
+var matches=250;
+var notout=50;
+var avg=0;
+console.log("avg=",runs/(matches-notout));
+
+8.Calculate five test scores and print their average
+var test1=90;
+var test2=45;
+var test3=67;
+var test4=89;
+var test5=59;
+sum=(test1+test2+test3+test4+test5);
+console.log("average=",sum/5);
+
+9.Power of any number x ^ y.
+var x=2;
+var y=2;
+console.log("z=",Math.pow(x,y));
+
+10.Calculate Simple Interest
+var P=50000;
+var R=2;
+var T=1;
+console.log("Simple interest=",(P*R*T)/100);
+
+11.Calculate area of an equilateral triangle
+var a=5;
+console.log("Area of equilateral triangle=",(1.73/4)*a*a);
+
+12.Area Of Isosceles Triangle
+var base=4;
+var height=5;
+console.log("Area of isosceles triangle=",(base*height)/2);
+
+13.Volume Of Sphere
+var radius=2;
+console.log("volume of sphere=",(4/3)*(3.14*radius*radius*radius));
+
+14.Volume Of Prism
+var b1=6;
+var h1=4;
+var height=9;
+var base=((b1*h1)/2);
+console.log("volume of prism=",(base*height));
+
+15.Find area of a triangle.
+var base=10;
+var height=12;
+console.log("Area of triangle=",(base*height)/2);
+
+16.Give the Actual cost and Sold cost, Calculate Discount Of Product
+var actualprice=100;
+var soldprice=70;
+console.log("discount=",actualprice-soldprice);
+
+17.Given their radius of a circle and find its diameter, circumference and area.
+var radius=2;
+console.log("diameter=",2*radius);
+console.log("circumference=",2*3.14*radius);
+console.log("area=",3.14*radius*radius);
+
+18.Given two numbers and perform all arithmetic operations.
+var a=5;
+var b=5;
+console.log("addition:",a+b);
+console.log("subtraction:",a-b);
+console.log("multiplication:",a*b);
+console.log("division:",a/b);
+console.log("modulus:",a%b);
+
+19.Display the asterisk pattern as shown below(No loop needed):
+console.log("*****");
+console.log("*****");
+console.log("*****");
+console.log("*****");
+console.log("*****");
+
+20.Calculate electricity bill?
+For example, a consumer consumes 100 watts per hour daily for one month. Calculate the total energy bill of that consumer if per unit rate is 10?
+wattsperday=100;
+wattspermonth=(30*100);
+perunitrate=10;
+console.log("Electricitybill:",wattspermonth*perunitrate);
+
+21.Program To Calculate CGPA
+percentage=91.26;
+console.log("CGPA:",percentage/10);
+
+
+
+Task 3: Simple Programs todo for Condition , Looping and Arrays
+
+
+1.for (let line="#";line.length<=7;line+="#")
+console.log(line);
+
+2.var strArray= ["<option>Jazz</option>",
+                "<option>Blues</option>",
+                "<option>New Age</option>",
+                "<option>Classical</option>",
+                "<option>Opera</option>"];
+console.log(strArray[0],strArray[1],strArray[2],strArray[3],strArray[4]);
+
+Arrays:
+3.var myarray=[11,22,33,44,55];
+console.log(myarray[0]+myarray[1]+myarray[2]+myarray[3]+myarray[4]);
+
+4.let foods=["idly","dosa","sambar","vada","friedrice","pongal","chicken","mutton","fish","prawn","crab","bread","noodles","chappathi","poori","idiyappam","brownie","lavacakes","blackforest","panipuri"];
+console.log(foods[4]);
+console.log(foods.length);
+
+5.let friends = ["Mari","MaryJane","CaptianAmerica","Munnabai","Jeff","AAK chandran"];
+console.log(friends[0,3]);
+
+6.let friends = ["Mari","MaryJane","CaptianAmerica","Munnabai","Jeff","AAK chandran"];
+for ( let i=0;i<3;i++)
+{console.log(friends[i])}
+      
